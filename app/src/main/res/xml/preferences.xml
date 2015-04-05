@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:key="@string/pr_key_type_source_of_images"
+        android:title="@string/pr_sources_title"
+        android:summary="@string/pr_sources_summary"
+        android:defaultValue="1"
+        android:entries="@array/sources_of_images_entries"
+        android:entryValues="@array/sources_of_images_values"
+        android:dialogTitle="@string/pr_sources_dialogTitle">
+    </ListPreference>
+
+    <PreferenceCategory
+        android:title="User specified time">
+
+        <com.home.slideshow.preferences.TimePreference
+            android:key="@string/pr_key_time_start"
+            android:title="@string/pr_time_start_title"
+            android:summary="@string/pr_time_start_summary"
+            android:dialogLayout="@layout/time_preference">
+        </com.home.slideshow.preferences.TimePreference>
+
+        <com.home.slideshow.preferences.TimePreference
+            android:key="@string/pr_key_time_stop"
+            android:title="@string/pr_time_stop_title"
+            android:summary="@string/pr_time_stop_summary"
+            android:dialogLayout="@layout/time_preference">
+        </com.home.slideshow.preferences.TimePreference>
+
+    </PreferenceCategory>
+
+    <com.home.slideshow.preferences.SeekBarPreference
+        android:key="@string/pr_key_interval"
+        android:title="@string/pr_interval_title"
+        android:summary="@string/pr_interval_summary"
+        android:dialogTitle="@string/pr_interval_dialogTitle"
+        android:dialogLayout="@layout/seek_bar_preference">
+    </com.home.slideshow.preferences.SeekBarPreference>
+
+    <PreferenceCategory
+        android:title="Automatic start">
+
+        <CheckBoxPreference
+            android:key="@string/pr_key_charge"
+            android:title="@string/pr_charging_title"
+            android:summary="">
+        </CheckBoxPreference>
+
+        <CheckBoxPreference
+            android:key="@string/pr_key_reboot"
+            android:title="@string/pr_reboot_title"
+            android:summary="">
+        </CheckBoxPreference>
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

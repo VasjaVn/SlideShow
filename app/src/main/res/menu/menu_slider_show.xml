@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".SliderShowActivity">
+
+    <item android:id="@+id/action_settings"
+          android:title="@string/action_settings" />
+
+    <item android:id="@+id/action_start_slide_show"
+          android:title="@string/action_start_slide_show" />
+
+    <item android:id="@+id/action_stop_slide_show"
+          android:title="@string/action_stop_slide_show" />
+
+    <item android:id="@+id/action_full_screen_on_off"
+        android:title="@string/action_full_screen_on_off" />
+
+    <item android:id="@+id/action_exit"
+          android:title="@string/action_exit" />
+
+</menu>

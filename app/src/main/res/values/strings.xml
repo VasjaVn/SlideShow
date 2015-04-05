@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Slide Show</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="app_logo_top">Slide Show Photos</string>
+    <string name="title_activity_preferences">Settings</string>
+
+    <string name="table_content_description">Image view for slide show</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_start_slide_show">Start Slide Show</string>
+    <string name="action_stop_slide_show">Stop Slide Show</string>
+    <string name="action_full_screen_on_off">Full Screen On/Off</string>
+    <string name="action_exit">Exit</string>
+
+    <string name="pr_key_type_source_of_images">keySourcesOfImages</string>
+    <string name="pr_sources_title">Sources of images</string>
+    <string name="pr_sources_summary">Select source of images</string>
+    <string name="pr_sources_dialogTitle">Select source of images</string>
+
+    <string name="pr_key_time_start">keyTimeStart</string>
+    <string name="pr_time_start_title">Start time</string>
+    <string name="pr_time_start_summary">Set time for start slide show</string>
+    <string name="pr_time_start_dialogTitle">Enter time for start slide show</string>
+
+    <string name="pr_key_time_stop">keyTimeStop</string>
+    <string name="pr_time_stop_title">Stop time</string>
+    <string name="pr_time_stop_summary">Set time for stop slide show</string>
+    <string name="pr_time_stop_dialogTitle">Enter time for stop slide show</string>
+
+    <string name="pr_key_interval">keyInterval</string>
+    <string name="pr_interval_title">Interval</string>
+    <string name="pr_interval_summary">Set the length of the interval</string>
+    <string name="pr_interval_dialogTitle">Enter the length of the interval between frames (from 1 to 60 seconds)</string>
+
+    <string name="pr_key_charge">keyCharge</string>
+    <string name="pr_charging_title">Automatic start during device charging</string>
+    <string name="pr_charging_summary">Automatic start during device charging</string>
+
+    <string name="pr_key_reboot">keyReboot</string>
+    <string name="pr_reboot_title">Automatic start after rebooting a device</string>
+    <string name="pr_reboot_summary">Automatic start after rebooting a device</string>
+
+</resources>

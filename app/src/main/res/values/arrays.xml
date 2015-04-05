@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sources_of_images_entries">
+        <item>local folder or SD card folder</item>
+        <item>list of files using HTTP</item>
+    </string-array>
+
+    <string-array name="sources_of_images_values">
+        <item>local</item>
+        <item>http</item>
+    </string-array>
+
+</resources>
